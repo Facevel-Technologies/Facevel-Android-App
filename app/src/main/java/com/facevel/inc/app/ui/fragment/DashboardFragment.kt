@@ -6,9 +6,22 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavController
+import androidx.navigation.NavOptions
 import com.facevel.inc.app.R
 import com.facevel.inc.app.databinding.FragmentDashboardBinding
 import dagger.hilt.android.AndroidEntryPoint
+
+fun NavController.safeNavigate(action: Int, arguments: Bundle?, options: NavOptions) {
+    /*
+    * We have to check if destination is the same as the current fragment
+    *  */
+    val destinationId = currentDestination?.getAction(action)?.destinationId
+    val currentDestinationId = this.currentDestination?.id
+    if (destinationId != currentDestinationId && destinationId != null) {
+        navigate(action, arguments, options)
+    }
+}
 
 @AndroidEntryPoint
 class DashboardFragment : Fragment() {
