@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "783838986080",
+    "project_id": "facevel-54091",
+    "storage_bucket": "facevel-54091.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783838986080:android:5587bd6c7fde7787fa2805",
+        "android_client_info": {
+          "package_name": "com.facevel.inc.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783838986080-tr5jj44uhi6ngmo7ne19qdf74c5j1pad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.facevel.inc.app",
+            "certificate_hash": "ad2ed4e8839135e14e739e0bb524deb76d73e594"
+          }
+        },
+        {
+          "client_id": "783838986080-l4m9rf4ldb4e7be48gqr3kof0on18vtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UJ_ojmKXC9_qgdawHa5s2CAB19sfvFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783838986080-l4m9rf4ldb4e7be48gqr3kof0on18vtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

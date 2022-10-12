@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/dashboard_menu_item_selector"
+        android:title="Home" />
+    <item
+        android:id="@+id/scanFragment"
+        android:icon="@drawable/scan_menu_item_selector"
+        android:title="Scan" />
+    <item
+        android:id="@+id/viewAttendanceFragment"
+        android:icon="@drawable/view_attendance_menu_item_selector"
+        android:title="Record" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings_menu_item_selector"
+        android:title="Settings" />
+</menu>

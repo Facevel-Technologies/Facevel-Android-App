@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="card_title_text" format="string" />
+    <attr name="card_description_text" format="string" />
+
+    <attr name="card_hide_tag" format="boolean" />
+    <attr name="card_inactive" format="boolean" />
+    <attr name="card_subtitle_text" format="string" />
+    <attr name="card_icon" format="reference" />
+    <attr name="card_icon_color" format="reference" />
+    <attr name="card_tag_text" format="string" />
+
+
+    <attr name="maxLinesForDesp" format="integer" />
+    <attr name="title_text" format="string" />
+    <attr name="description_text" format="string" />
+    <attr name="viewColor" format="reference" />
+    <attr name="logo_image" format="reference" />
+    <attr name="isChecked" format="boolean" />
+    <attr name="lineNumber" format="string" />
+    <attr name="noLogoColor" format="boolean" />
+    <attr name="cardTitleTextColor" format="reference" />
+    <attr name="cardDescriptionTextColor" format="reference" />
+    <declare-styleable name="CardButtonWithTextView">
+        <attr name="logo_text" format="string" />
+        <attr name="title_text" />
+        <attr name="maxLinesForDesp" />
+        <attr name="description_text" />
+        <attr name="viewColor" />
+        <attr name="cardTitleTextColor" />
+        <attr name="cardDescriptionTextColor" />
+    </declare-styleable>
+    <declare-styleable name="CardButtonWithProgressBar">
+        <attr name="title_text" />
+        <attr name="description_text" />
+        <attr name="viewColor" />
+        <attr name="isChecked" />
+        <attr name="maxLinesForDesp" />
+        <attr name="noLogoColor" />
+        <attr name="logo_image" />
+        <attr name="cardTitleTextColor" />
+        <attr name="cardDescriptionTextColor" />
+        <attr name="isProgressVisible" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CardButtonWithImageView">
+        <attr name="title_text" />
+        <attr name="description_text" />
+        <attr name="viewColor" />
+        <attr name="logo_image" />
+        <attr name="maxLinesForDesp" />
+        <attr name="cardTitleTextColor" />
+        <attr name="cardDescriptionTextColor" />
+        <attr name="isChecked" />
+        <attr name="noLogoColor" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CardComponentView">
+        <attr name="card_title_text" />
+        <attr name="card_description_text" />
+        <attr name="card_hide_tag" />
+        <attr name="card_inactive" />
+        <attr name="card_subtitle_text" />
+        <attr name="card_icon" />
+        <attr name="card_icon_color" />
+        <attr name="card_tag_text" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CardComponentViewOutline">
+        <attr name="card_title_text" />
+        <attr name="card_description_text" />
+        <attr name="card_hide_tag" />
+        <attr name="card_inactive" />
+        <attr name="card_subtitle_text" />
+        <attr name="card_icon" />
+        <attr name="card_icon_color" />
+        <attr name="card_tag_text" />
+    </declare-styleable>
+
+    <declare-styleable name="CardComponentNotificationView">
+        <attr name="card_hide_action" format="boolean" />
+        <attr name="card_title_text" />
+        <attr name="card_description_text" />
+        <attr name="card_heading_text" format="string" />
+        <attr name="card_base_icon" format="reference" />
+        <attr name="card_type" format="string" />
+        <attr name="card_action_icon" format="reference" />
+        <attr name="card_action_text" format="string" />
+        <attr name="card_short_description" format="boolean" />
+    </declare-styleable>
+</resources>

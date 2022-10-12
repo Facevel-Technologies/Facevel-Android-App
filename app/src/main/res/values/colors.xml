@@ -1,5 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#0062ff</color>
+    <color name="colorPrimaryLight">#6b8fff</color>
+    <color name="colorPrimaryDark">#0039cb</color>
+    <color name="colorAccent">#0062ff</color>
+    <color name="black">#000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="header">#fff</color>
+    <color name="roundedBottomSheetPrimaryBackground">@color/cardBackgroundColor</color>
+    <color name="roundedBottomSheetPrimaryNavigationBarColor">@color/cardBackgroundColor</color>
+
+    <color name="navigation_bottom_color">#f1f4f9</color>
+
+    <color name="ripple_color">#5C646464</color>
+    <!--Colors used in commands-->
+
+    <!-- Light Dark CTA -->
+
+    <color name="orange_light_dark_bg">#fce0cb</color>
+    <color name="orange_light_dark_text">#f6a158</color>
+
+    <color name="green_light_dark_bg">#b1e6d4</color>
+    <color name="green_light_dark_text">#0CAF73</color>
+
+    <color name="red_light_dark_bg">#fcd2d3</color>
+    <color name="red_light_dark_text">#ee6e74</color>
+
+    <color name="purple_light_dark_bg">#d7caff</color>
+    <color name="purple_light_dark_text">#7d5ce7</color>
+
+    <color name="blue_light_dark_bg">#C4E2FF</color>
+    <color name="blue_light_dark_text">#2089FF</color>
+
+    <!-- Card colors Light -->
+    <color name="card_view_background_color">#fbfcfe</color>
+    <color name="card_view_stroke_color">#E1E1E1</color>
+    <!-- Inactive colors dark -->
+    <color name="card_view_text_color_inactive">#929395</color>
+    <color name="card_view_background_color_inactive">#F3F3F4</color>
+
+
+    <color name="orange">#FF8B25</color>
+    <color name="orange_text">#fa9f59</color>
+    <color name="pastel_orange">#fce0cb</color>
+    <color name="blue">#299AD4</color>
+    <color name="dark_blue">#296DD4</color>
+    <color name="red">#EE0F0F</color>
+
+    <color name="toolbarColor">@color/colorPrimary</color>
+    <color name="primaryTextColor">#555555</color>
+    <color name="primaryTextColorLight">#686868</color>
+    <color name="primaryTextColorDark">#1f2937</color>
+    <color name="cardBackgroundColor">#fff</color>
+    <color name="cardBackgroundColorCustom">#F4F4F4</color>
+    <color name="cardBackgroundColorCustomProfile">#E3E3E3</color>
+    <color name="iconTintColor">#373737</color>
+    <color name="dividerColor">#DCDCDC</color>
+    <color name="colorBackground">#edeef3</color>
+
+    <color name="bottomsheet_bg">#FFF</color>
+
+    <color name="snackbar_bg">#000</color>
+    <color name="snackbar_text">@color/white</color>
+
+    <!--<color name="navDrawerBackground">@color/md_white_1000</color>-->
+
+    <color name="debian">#D70751</color>
+    <color name="green">#34BE5B</color>
+    <color name="manjaro_light">#574CAF50</color>
+    <color name="void_linux">#478061</color>
+    <color name="fedora">#294172</color>
+    <color name="kali_black">#0E1215</color>
+    <color name="alpine">#0B6D92</color>
+    <color name="arch">#299AD4</color>
+    <color name="awesome">#535d6c</color>
+    <color name="openbox">#FF4276B7</color>
+    <color name="discord">#7289da</color>
+
+    <color name="xfce">#034E75</color>
+    <color name="lxqt">@color/blue</color>
+    <color name="lxde">#3F51B5</color>
+    <color name="e_de">@color/primaryTextColor</color>
+
+
+    <!-- Shimmer Effects-->
+    <color name="shimmer_grey">#E8E8E8</color>
+    <color name="shimmer_grey_2">#DFDFDF</color>
+    <color name="purple">#8e44ad</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="icon_unselected">#818181</color>
+    <color name="shimmer_text_dark">#A8A8A8</color>
+    <color name="darker_gray">#B5B5B5</color>
+    <color name="lilac">#424faf</color>
+
+
 </resources>

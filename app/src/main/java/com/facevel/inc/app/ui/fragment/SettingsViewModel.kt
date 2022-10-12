@@ -1,0 +1,7 @@
+package com.facevel.inc.app.ui.fragment
+
+import androidx.lifecycle.ViewModel
+
+class SettingsViewModel : ViewModel() {
+    // TODO: Implement the ViewModel
+}
